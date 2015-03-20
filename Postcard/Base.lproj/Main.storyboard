@@ -78,6 +78,9 @@
                                 <variation key="widthClass=compact" fixedFrame="YES">
                                     <rect key="frame" x="16" y="313" width="286" height="30"/>
                                 </variation>
+                                <connections>
+                                    <action selector="sendMailButonPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="2YJ-nS-UIH"/>
+                                </connections>
                             </button>
                             <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Ki-c0-WfY">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
@@ -109,6 +112,11 @@
                             </mask>
                         </variation>
                     </view>
+                    <connections>
+                        <outlet property="enterMessageTextField" destination="uu4-1f-XCg" id="wTU-h9-FJC"/>
+                        <outlet property="enterNameTextField" destination="XWL-Yf-gS4" id="YaA-Ar-KqN"/>
+                        <outlet property="messageLabel" destination="5Ki-c0-WfY" id="RWg-tj-GHy"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
