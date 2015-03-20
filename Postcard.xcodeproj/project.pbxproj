@@ -13,6 +13,7 @@
 		B43AD0A21ABB8343004C1451 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B43AD0A11ABB8343004C1451 /* Images.xcassets */; };
 		B43AD0A51ABB8345004C1451 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B43AD0A31ABB8345004C1451 /* LaunchScreen.xib */; };
 		B43AD0B11ABB834B004C1451 /* PostcardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43AD0B01ABB834B004C1451 /* PostcardTests.swift */; };
+		B4D087F21ABBFE1E004BCFD1 /* SagradaFamilia.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B4D087F11ABBFE1E004BCFD1 /* SagradaFamilia.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		B43AD0AA1ABB8346004C1451 /* PostcardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PostcardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B43AD0AF1ABB8347004C1451 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B43AD0B01ABB834B004C1451 /* PostcardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = PostcardTests.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		B4D087F11ABBFE1E004BCFD1 /* SagradaFamilia.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SagradaFamilia.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 		B43AD0981ABB8338004C1451 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				B4D087F11ABBFE1E004BCFD1 /* SagradaFamilia.jpeg */,
 				B43AD0991ABB8338004C1451 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -193,6 +196,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B43AD0A01ABB8341004C1451 /* Main.storyboard in Resources */,
+				B4D087F21ABBFE1E004BCFD1 /* SagradaFamilia.jpeg in Resources */,
 				B43AD0A51ABB8345004C1451 /* LaunchScreen.xib in Resources */,
 				B43AD0A21ABB8343004C1451 /* Images.xcassets in Resources */,
 			);
@@ -405,6 +409,7 @@
 				B43AD0B61ABB834B004C1451 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B43AD0B71ABB834B004C1451 /* Build configuration list for PBXNativeTarget "PostcardTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +418,7 @@
 				B43AD0B91ABB834B004C1451 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
