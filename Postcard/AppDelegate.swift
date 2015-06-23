@@ -1,4 +1,4 @@
-//zzz
+//
 //  AppDelegate.swift
 //  Postcard
 //
